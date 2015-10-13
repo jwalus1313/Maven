@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HelloWorldId</groupId>
+  <artifactId>HelloWorld2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Hello World</name>
+  <description>Hello World</description>
+  <scm>
+  	<url>https://github.com/jwalus1313/Java</url>
+  	<connection>scm:git:git://github.com/jwalus1313/Maven.git</connection>
+  	<developerConnection>scm:git:git@github.com:jwalus1313/Maven.git</developerConnection>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Corporate Repository</name>
+      <url>https://github.com/jwalus1313/Maven</url>
+    </repository>
+</distributionManagement>
+</project>
